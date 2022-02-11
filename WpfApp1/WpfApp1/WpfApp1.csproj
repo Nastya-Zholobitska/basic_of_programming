@@ -7,7 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bitgem_digital_future_system_security_icon_197451.png" />
+    <None Remove="diamond_icon_196971.png" />
+    <None Remove="sun_view_nature_mountain_landscape_icon_210511.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bitgem_digital_future_system_security_icon_197451.png" />
+    <Resource Include="diamond_icon_196971.png" />
+    <Resource Include="sun_view_nature_mountain_landscape_icon_210511.png" />
   </ItemGroup>
 
 </Project>

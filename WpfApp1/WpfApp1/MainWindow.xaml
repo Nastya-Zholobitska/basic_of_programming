@@ -7,13 +7,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d" WindowStartupLocation="CenterScreen"
-        Title="Головне вікно" Height="410" Width="652" ResizeMode="NoResize" HorizontalContentAlignment="Left" VerticalContentAlignment="Top">
+        Title="Головне вікно" Height="410" Width="652" ResizeMode="NoResize" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Icon="/diamond_icon_196971.png" AllowDrop="True">
     <Grid Margin="0,0,0,0" Background="#E6E7F2" RenderTransformOrigin="0.497,0.577" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="553*"/>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="64*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="215*"/>
             <RowDefinition Height="179*"/>
         </Grid.RowDefinitions>
-        <Border Background="White" Margin="124,42,124,0" Grid.RowSpan="2" Height="274" VerticalAlignment="Top" RenderTransformOrigin="0.489,0.577">
+        <Border Background="White" Margin="124,42,25,0" Grid.RowSpan="2" Height="274" VerticalAlignment="Top" RenderTransformOrigin="0.489,0.577">
             <Border.Effect>
                 <DropShadowEffect BlurRadius="30" Color="LightGray"></DropShadowEffect>
             </Border.Effect>
@@ -24,7 +29,7 @@
         <Button Content="Калькулятор" Click="kalk_Click"  Foreground="White" HorizontalAlignment="Left" Height="38" Margin="156,147,0,0" VerticalAlignment="Top" Width="137"/>
         <Button Content="Реєстрація" Click="Reg_Click"  Foreground="White" HorizontalAlignment="Left" Height="38" Margin="348,147,0,0" VerticalAlignment="Top" Width="137"/>
         <Label Content="Обери одну із доступних опцій:" HorizontalAlignment="Left" Height="37" Margin="136,0,0,0" VerticalAlignment="Center" Width="235" FontSize="14"/>
-        <Button Content="Автор" Click="Author_Click"   Foreground="#FF673AB7"  HorizontalAlignment="Center" Height="26" Margin="0,132,0,0" Grid.Row="1" VerticalAlignment="Top" Width="116" FontSize="13" FontWeight="Normal" FontStyle="Normal" BorderThickness="1,0,0,1" BorderBrush="#FF295274" Background="#FFE2E3EE"/>
+        <Button Content="Автор" Click="Author_Click"   Foreground="#FF673AB7"  HorizontalAlignment="Left" Height="26" Margin="268,132,0,0" Grid.Row="1" VerticalAlignment="Top" Width="116" FontSize="13" FontWeight="Normal" FontStyle="Normal" BorderThickness="1,0,0,1" BorderBrush="#FF295274" Background="#FFE2E3EE"/>
 
 
     </Grid>
