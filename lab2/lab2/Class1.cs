@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Effects;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -35,13 +36,17 @@ namespace lab2
 
         private void initControls()
         {
+            DropShadowEffect shadow = new DropShadowEffect();
+            shadow.BlurRadius = 30;
+            shadow.Color = Colors.LightGray;
+
             wn.ResizeMode = ResizeMode.NoResize;
             wn.Height = 580;
             wn.Width = 500;
             wn.WindowStartupLocation = WindowStartupLocation.CenterScreen;
-
+            BrushConverter bc = new BrushConverter();
             wn.Title = "Хрестики-нулики";
-            wn.Background= new SolidColorBrush(Colors.LightGray);
+            wn.Background = (Brush)bc.ConvertFromString("#E6E7F2");
 
 
             myGrid.Height = 590;
@@ -59,6 +64,7 @@ namespace lab2
                     ArrBtn[i, j].Foreground = new SolidColorBrush(Colors.DarkSlateGray);
                     ArrBtn[i, j].Background = new SolidColorBrush(Colors.White);
                     ArrBtn[i,j].BorderBrush = new SolidColorBrush(Colors.MediumVioletRed);
+                    ArrBtn[i, j].Effect = shadow;
                     ArrBtn[i, j].FontSize = 50;
                 }
 

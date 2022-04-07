@@ -10,6 +10,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Effects;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
@@ -39,13 +40,13 @@ namespace lab2
 
         private void initControls()
         {
-
+            BrushConverter bc = new BrushConverter();
             win.Height = 455;
             win.Width = 647;
             win.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             win.ResizeMode = ResizeMode.NoResize;
             win.Title = "Реєстрація";
-            win.Background = new SolidColorBrush(Colors.LightGray);
+            win.Background = (Brush)bc.ConvertFromString("#E6E7F2");
 
 
             myGrid.Height = 455;
@@ -55,7 +56,6 @@ namespace lab2
             myGrid.ShowGridLines = false;
 
 
-
             Button btn = new Button();
             btn.Margin = new Thickness(387, 310, 84, 0);
             btn.Height = 30;
@@ -63,14 +63,19 @@ namespace lab2
             btn.VerticalAlignment = VerticalAlignment.Top;
             btn.Content = "Вихід";
             btn.Foreground = new SolidColorBrush(Colors.MediumVioletRed);
+            btn.Background = (Brush)bc.ConvertFromString("#E6E7F2");
             btn.FontSize = 16;
             myGrid.Children.Add(btn);
 
+            DropShadowEffect shadow = new DropShadowEffect();
+            shadow.BlurRadius = 30;
+            shadow.Color = Colors.LightGray;
             Border bord = new Border();
             bord.Background = new SolidColorBrush(Colors.White); 
             bord.Margin= new Thickness(24, 69, 340, 0);
             bord.Height = 273;
             bord.VerticalAlignment = VerticalAlignment.Top;
+            bord.Effect = shadow;
             myGrid.Children.Add(bord);
 
             Border bord2 = new Border();
@@ -78,6 +83,7 @@ namespace lab2
             bord2.Margin = new Thickness(332, 69, 29, 0);
             bord2.Height = 193;
             bord2.VerticalAlignment = VerticalAlignment.Top;
+            bord2.Effect = shadow;
             myGrid.Children.Add(bord2);
 
             Label text = new Label();

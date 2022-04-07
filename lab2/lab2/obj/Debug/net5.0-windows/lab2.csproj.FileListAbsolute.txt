@@ -20,3 +20,25 @@ D:\прога и асд\прога\lab2\lab2\obj\Debug\net5.0-windows\lab2.dll
 D:\прога и асд\прога\lab2\lab2\obj\Debug\net5.0-windows\ref\lab2.dll
 D:\прога и асд\прога\lab2\lab2\obj\Debug\net5.0-windows\lab2.pdb
 D:\прога и асд\прога\lab2\lab2\obj\Debug\net5.0-windows\lab2.genruntimeconfig.cache
+D:\rep2\basic_of_programming\lab2\lab2\bin\Debug\net5.0-windows\lab2.exe
+D:\rep2\basic_of_programming\lab2\lab2\bin\Debug\net5.0-windows\lab2.deps.json
+D:\rep2\basic_of_programming\lab2\lab2\bin\Debug\net5.0-windows\lab2.runtimeconfig.json
+D:\rep2\basic_of_programming\lab2\lab2\bin\Debug\net5.0-windows\lab2.runtimeconfig.dev.json
+D:\rep2\basic_of_programming\lab2\lab2\bin\Debug\net5.0-windows\lab2.dll
+D:\rep2\basic_of_programming\lab2\lab2\bin\Debug\net5.0-windows\ref\lab2.dll
+D:\rep2\basic_of_programming\lab2\lab2\bin\Debug\net5.0-windows\lab2.pdb
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2.csproj.AssemblyReference.cache
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\App.g.cs
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2_MarkupCompile.cache
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2_MarkupCompile.lref
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\MainWindow.baml
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2.g.resources
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2.GeneratedMSBuildEditorConfig.editorconfig
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2.AssemblyInfoInputs.cache
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2.AssemblyInfo.cs
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2.csproj.CoreCompileInputs.cache
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2.dll
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\ref\lab2.dll
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2.pdb
+D:\rep2\basic_of_programming\lab2\lab2\obj\Debug\net5.0-windows\lab2.genruntimeconfig.cache

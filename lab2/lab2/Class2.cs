@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Effects;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -38,6 +39,7 @@ namespace lab2
 
         private void initControls()
         {
+            BrushConverter bc = new BrushConverter();
            
             win.Height = 350;
             win.Width = 250;
@@ -45,7 +47,7 @@ namespace lab2
 
             win.ResizeMode = ResizeMode.NoResize;
             win.Title = "Калькулятор";
-            win.Background = new SolidColorBrush(Colors.LightGray);
+            win.Background = (Brush)bc.ConvertFromString("#E6E7F2");
 
 
             myGrid.Height = 300;
@@ -54,6 +56,9 @@ namespace lab2
             myGrid.VerticalAlignment = VerticalAlignment.Center;
             myGrid.ShowGridLines = false;
 
+              DropShadowEffect shadow = new DropShadowEffect();
+            shadow.BlurRadius = 30;
+            shadow.Color = Colors.LightGray;
 
             for (int i = 0; i < 5; i++)
                 for (int j = 0; j < 4; j++)

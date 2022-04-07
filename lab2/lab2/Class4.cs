@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Effects;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -27,18 +28,18 @@ namespace lab2
             }
 
             public Window win = new Window();
+       
 
-
-
-            private void initControls()
+        private void initControls()
             {
-
+            BrushConverter bc = new BrushConverter();
+  
             win.Height = 470;
             win.Width = 703;
             win.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             win.ResizeMode = ResizeMode.NoResize;
             win.Title = "Автор";
-            win.Background = new SolidColorBrush(Colors.LightGray);
+            win.Background = (Brush)bc.ConvertFromString("#E6E7F2");
 
             Grid myGrid = new Grid();
             myGrid.Height = 470;
@@ -47,7 +48,9 @@ namespace lab2
             myGrid.VerticalAlignment = VerticalAlignment.Center;
             myGrid.ShowGridLines = false;
 
-          
+            DropShadowEffect shadow = new DropShadowEffect();
+            shadow.BlurRadius = 30;
+            shadow.Color = Colors.LightGray;
 
             Button btn = new Button();
             btn.Margin = new Thickness(150, 398, 150, 0);
@@ -56,6 +59,7 @@ namespace lab2
             btn.VerticalAlignment = VerticalAlignment.Top;
 
             btn.Content = "Вихід";
+            btn.Background = (Brush)bc.ConvertFromString("#E6E7F2");
             btn.Foreground = new SolidColorBrush(Colors.MediumVioletRed);
             btn.FontSize = 16;
             myGrid.Children.Add(btn);
@@ -67,6 +71,7 @@ namespace lab2
             bord.Margin = new Thickness(114, 0, 114, 0);
             bord.Height = 273;
             bord.VerticalAlignment = VerticalAlignment.Center;
+            bord.Effect = shadow;
             myGrid.Children.Add(bord);
 
             Label text = new Label();
