@@ -1,0 +1,63 @@
+﻿<Window x:Class="library.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Background="#FFEAEBF1"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        WindowStartupLocation="CenterScreen"
+        xmlns:local="clr-namespace:library"
+        mc:Ignorable="d"
+        Title="Головне вікно" Height="450" Width="465.6">
+    <Grid>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="351" Margin="58,40,0,0" Stroke="White" VerticalAlignment="Top" Width="336">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray"></DropShadowEffect>
+            </Rectangle.Effect>
+        </Rectangle>
+
+        <Rectangle Fill="#FF94949C" HorizontalAlignment="Left" Height="59" Margin="58,332,0,0" Stroke="White" VerticalAlignment="Top" Width="16"/>
+        <Rectangle HorizontalAlignment="Left" Height="77" Margin="74,314,0,0" Stroke="White" VerticalAlignment="Top" Width="26" Fill="#FFDC8C8C"/>
+
+        <Button Content="Інформація про стан бібліотеки" Click="Button_Click"  HorizontalAlignment="Left" Height="42" Margin="90,111,0,0" VerticalAlignment="Top" Width="280" Background="#FFBA5353" Foreground="White" FontSize="18"/>
+        <Button Content="Операції над даними бібліотеки" HorizontalAlignment="Left" Height="42" Margin="90,183,0,0" VerticalAlignment="Top" Width="280" Background="#FFB15555" Foreground="White" FontSize="18"/>
+        <Button Content="Формування звіту" HorizontalAlignment="Left" Height="42" Margin="90,252,0,0" VerticalAlignment="Top" Width="280" Background="#FFBA5353" Foreground="White" FontSize="18" BorderBrush="White"/>
+        <Rectangle Fill="#FFBA5353" HorizontalAlignment="Left" Height="58" Margin="106,322,0,0" VerticalAlignment="Top" Width="16" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-16.027"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="#FFBA5353" HorizontalAlignment="Left" Height="48" Margin="380,332,0,0" VerticalAlignment="Top" Width="12"/>
+        <Rectangle Fill="#FFDC8C8C" HorizontalAlignment="Left" Height="62" Margin="357,318,0,0" Stroke="White" VerticalAlignment="Top" Width="23"/>
+
+        <Rectangle Fill="#FFBA5353" HorizontalAlignment="Left" Height="58" Margin="315,323,0,0" Stroke="White" VerticalAlignment="Top" Width="16" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.018"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="#FF94949C" HorizontalAlignment="Left" Height="57" Margin="338,323,0,0" Stroke="White" VerticalAlignment="Top" Width="13" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="16.563"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="12" Margin="58,379,0,0" VerticalAlignment="Top" Width="336" Fill="#FF36363A" Stroke="White"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="66" Margin="145,314,0,0" Stroke="White" VerticalAlignment="Top" Width="159"/>
+        <Button Content="Про розробника" HorizontalAlignment="Left" Height="22" Margin="154,348,0,0" VerticalAlignment="Top" Width="141" Background="White" Foreground="#FFBA5353" BorderBrush="#FFBA5353"/>
+        <Label Content="Інформаційна система бібліотеки " HorizontalAlignment="Left" Height="43" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="58,40,0,0" VerticalAlignment="Top" Width="336" FontSize="18" Foreground="White" Background="#FF3B3B3F"/>
+        <Button Content="Вихід" HorizontalAlignment="Left" Height="24" Margin="154,314,0,0" VerticalAlignment="Top" Width="141" Background="White" Foreground="#FFBA5353" BorderBrush="#FFBA5353" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
