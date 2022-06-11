@@ -1,0 +1,84 @@
+﻿<Window x:Class="library.Добавити_читача"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:library"
+        mc:Ignorable="d"  WindowStartupLocation="CenterScreen" 
+        Title="Добавити чи видалити читача" Height="507.6" Width="728" Background="#FFEAEBF1">
+    <Grid>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="70" Margin="29,64,0,0" Stroke="White" VerticalAlignment="Top" Width="301"/>
+        <Rectangle HorizontalAlignment="Left" Height="66" Margin="316,64,0,0" VerticalAlignment="Top" Width="14" Fill="#FF94949C"/>
+        <Rectangle HorizontalAlignment="Left" Height="53" Margin="286,75,0,0" VerticalAlignment="Top" Width="20" Fill="#FFDC8C8C" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="20.818"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+
+        <Button Content="Видалити тих, хто рік не проходив перереєстр" HorizontalAlignment="Left" Height="39" Margin="27,186,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFB65454" Foreground="White" Click="Button_Click_1"/>
+        <Button Content="Видання/отримання книг читачам" HorizontalAlignment="Left" Height="39" Margin="27,238,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFBA5353" Foreground="White" Click="Button_Click_3"/>
+        <Button Content="Видалення/добавлення книг" HorizontalAlignment="Left" Height="39" Margin="27,289,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFBA5353" Foreground="White" Click="Button_Click_4"/>
+        <Button Content="Вихід у меню" Background="White" Foreground="#FFB85353" HorizontalAlignment="Left" Height="25" Margin="109,439,0,0" VerticalAlignment="Top" Width="142" BorderBrush="#FFB85858" Click="Button_Click_6"/>
+        <Button Content="Закрити програму" Background="White" Foreground="#FFB85353" HorizontalAlignment="Left" Height="25" Margin="455,439,0,0" VerticalAlignment="Top" Width="142" BorderBrush="#FFB85858" Click="Button_Click_7"/>
+        <Rectangle Fill="#FF3B3B3F" HorizontalAlignment="Left" Height="4" Margin="27,130,0,0" VerticalAlignment="Top" Width="303"/>
+        <Rectangle HorizontalAlignment="Left" Height="60" Margin="29,69,0,0" VerticalAlignment="Top" Width="20" Fill="#FFDC8C8C"/>
+        <Rectangle HorizontalAlignment="Left" Height="53" Margin="49,76,0,0" VerticalAlignment="Top" Width="14" Fill="#FFBA5353"/>
+        <Rectangle Fill="#FF94949C" HorizontalAlignment="Left" Height="51" Margin="71,78,0,0" VerticalAlignment="Top" Width="16" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-18.752"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="Операції" HorizontalAlignment="Left" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="109,82,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF3B3B3F" FontSize="20" FontWeight="Bold"/>
+        <Rectangle HorizontalAlignment="Left" Height="53" Margin="261,77,0,0" VerticalAlignment="Top" Width="14" Fill="#FFBA5353"/>
+        <Rectangle Fill="#FF3B3B3F" HorizontalAlignment="Left" Height="5" Margin="29,64,0,0" VerticalAlignment="Top" Width="303"/>
+        <Button Content="Добавити чи видалити читача" IsEnabled="False" HorizontalAlignment="Left" Height="39" Margin="27,135,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFB65454" Foreground="#FF3D3D41"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="396" Margin="372,31,0,0" Stroke="White" VerticalAlignment="Top" Width="315">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Label Content="Добавити читача" HorizontalAlignment="Left" Height="38" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="372,31,0,0" VerticalAlignment="Top" Width="315" Foreground="White" Background="#FF3B3B3F" FontSize="18"/>
+        <TextBlock Text="Прізвище" TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,82,0,0" VerticalAlignment="Top" Width="78" FontSize="14"/>
+        <TextBlock Text="Номер паспорту" TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,111,0,0" VerticalAlignment="Top" Width="116" FontSize="14"/>
+        <TextBlock Text="Дата народження" TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,140,0,0" VerticalAlignment="Top" Width="116" FontSize="14"/>
+        <TextBlock Text="Адреса" TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,169,0,0" VerticalAlignment="Top" Width="116" FontSize="14"/>
+        <TextBlock Text="Освіта" TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,221,0,0" VerticalAlignment="Top" Width="116" FontSize="14"/>
+        <TextBlock Text="Наявність наук.ст." TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,245,0,0" VerticalAlignment="Top" Width="116" FontSize="14"/>
+        <TextBlock Text="Дата реєстрації" TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,294,0,0" VerticalAlignment="Top" Width="116" FontSize="14"/>
+        <Label Content="Видалити читача" HorizontalAlignment="Left" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="372,355,0,0" VerticalAlignment="Top" Width="315" Foreground="White" Background="#FF3B3B3F" FontSize="18"/>
+        <TextBlock Text="Чит. квиток" TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,398,0,0" VerticalAlignment="Top" Width="95" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Name="Surname" Height="20" HorizontalContentAlignment="Center" Margin="510,82,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157" FontSize="14" Background="#FFE0E1E6"/>
+        <TextBox HorizontalAlignment="Left" Name="Passport" HorizontalContentAlignment="Center"  Height="20" Margin="510,108,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157" FontSize="14" Background="#FFE0E1E6"/>
+        <TextBox HorizontalAlignment="Left" Name="Birthday" HorizontalContentAlignment="Center"  Height="20" Margin="510,136,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157" FontSize="14" Background="#FFE0E1E6"/>
+        <TextBox HorizontalAlignment="Left" Name="Adres" HorizontalContentAlignment="Center" Height="20" Margin="510,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157" FontSize="14" Background="#FFE0E1E6"/>
+        <TextBox HorizontalAlignment="Left" Name="Registr" HorizontalContentAlignment="Center" Height="20" Margin="510,297,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157" FontSize="14" Background="#FFE0E1E6"/>
+        <Button Content="Добавити" HorizontalAlignment="Left" Height="22" Margin="473,328,0,0" VerticalAlignment="Top" Width="124" Foreground="White" Background="#FFBA5353" Click="Button_Click"/>
+        <ComboBox HorizontalAlignment="Left" Name="Ed" Height="20" HorizontalContentAlignment="Center" Margin="510,217,0,0" VerticalAlignment="Top" Width="157">
+            <TextBlock Name="one1">початкова</TextBlock>
+            <TextBlock Name="two1">середня</TextBlock>
+            <TextBlock Name="three1">вища</TextBlock>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Name="Dg" HorizontalContentAlignment="Center" Height="20" Margin="510,244,0,0" VerticalAlignment="Top" Width="157" SelectedIndex="0" Background="Black">
+            <TextBlock x:Name="one">немає</TextBlock>
+            <TextBlock x:Name="two">є</TextBlock>
+        </ComboBox>
+        <TextBlock Text="Номер телефону" TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,194,0,0" VerticalAlignment="Top" Width="116" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" x:Name="Teleph" HorizontalContentAlignment="Center" Height="20" Margin="510,191,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157" FontSize="14" Background="#FFE0E1E6"/>
+        <TextBlock Text="Чит. зал" TextWrapping="Wrap" HorizontalAlignment="Left" Height="29" Margin="384,271,0,0" VerticalAlignment="Top" Width="116" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" x:Name="Hall" HorizontalContentAlignment="Center" Height="20" Margin="510,271,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157" FontSize="14" Background="#FFE0E1E6"/>
+        <TextBox HorizontalAlignment="Left" x:Name="idid" HorizontalContentAlignment="Center" Height="20" Margin="473,398,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="91" FontSize="14" Background="#FFE0E1E6"/>
+        <Button Content="Видалити" HorizontalAlignment="Left" Height="22" Margin="579,398,0,0" VerticalAlignment="Top" Width="93" Foreground="White" Background="#FFBA5353" Click="Button_Click_2"/>
+        <Button Content="Перереєстрація читачів/книг" HorizontalAlignment="Left" Height="39" Margin="29,339,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFBA5353" Foreground="White" Click="Button_Click_5"/>
+    </Grid>
+</Window>

@@ -1,0 +1,76 @@
+D:\прога и асд\прога\library\library\bin\Debug\library.exe.config
+D:\прога и асд\прога\library\library\bin\Debug\library.exe
+D:\прога и асд\прога\library\library\bin\Debug\library.pdb
+D:\прога и асд\прога\library\library\obj\Debug\library.csproj.AssemblyReference.cache
+D:\прога и асд\прога\library\library\obj\Debug\MainWindow.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\App.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\library_MarkupCompile.cache
+D:\прога и асд\прога\library\library\obj\Debug\library_MarkupCompile.lref
+D:\прога и асд\прога\library\library\obj\Debug\MainWindow.baml
+D:\прога и асд\прога\library\library\obj\Debug\library.g.resources
+D:\прога и асд\прога\library\library\obj\Debug\library.Properties.Resources.resources
+D:\прога и асд\прога\library\library\obj\Debug\library.csproj.GenerateResource.cache
+D:\прога и асд\прога\library\library\obj\Debug\library.csproj.CoreCompileInputs.cache
+D:\прога и асд\прога\library\library\obj\Debug\library.exe
+D:\прога и асд\прога\library\library\obj\Debug\library.pdb
+D:\прога и асд\прога\library\library\obj\Debug\Інформація_про_книги.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Інформація_про_книги.baml
+D:\прога и асд\прога\library\library\obj\Debug\Книги, що закріплені за читачем.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Читачі, що взяли книгу місяць тому.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Книги, що закріплені за читачем.baml
+D:\прога и асд\прога\library\library\obj\Debug\Читачі, що взяли книгу місяць тому.baml
+D:\прога и асд\прога\library\library\obj\Debug\Загальна інформація.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Загальна інформація.baml
+D:\прога и асд\прога\library\library\obj\Debug\Інформація про бібліотеку.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Інформація про бібліотеку.baml
+D:\прога и асд\прога\library\library\obj\Debug\Коли книгу було закріплено.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Коли книгу було закріплено.baml
+D:\прога и асд\прога\library\library\obj\Debug\У кого книги яких менше двох.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\У кого книги яких менше двох.baml
+D:\прога и асд\прога\lab5\library\bin\Debug\library.exe.config
+D:\прога и асд\прога\lab5\library\bin\Debug\library.exe
+D:\прога и асд\прога\lab5\library\bin\Debug\library.pdb
+D:\прога и асд\прога\lab5\library\obj\Debug\library.csproj.AssemblyReference.cache
+D:\прога и асд\прога\lab5\library\obj\Debug\MainWindow.g.cs
+D:\прога и асд\прога\lab5\library\obj\Debug\Інформація про бібліотеку.g.cs
+D:\прога и асд\прога\lab5\library\obj\Debug\Інформація_про_книги.g.cs
+D:\прога и асд\прога\lab5\library\obj\Debug\Загальна інформація.g.cs
+D:\прога и асд\прога\lab5\library\obj\Debug\Книги, що закріплені за читачем.g.cs
+D:\прога и асд\прога\lab5\library\obj\Debug\Коли книгу було закріплено.g.cs
+D:\прога и асд\прога\lab5\library\obj\Debug\У кого книги яких менше двох.g.cs
+D:\прога и асд\прога\lab5\library\obj\Debug\Читачі, що взяли книгу місяць тому.g.cs
+D:\прога и асд\прога\lab5\library\obj\Debug\App.g.cs
+D:\прога и асд\прога\lab5\library\obj\Debug\library_MarkupCompile.cache
+D:\прога и асд\прога\lab5\library\obj\Debug\library_MarkupCompile.lref
+D:\прога и асд\прога\lab5\library\obj\Debug\MainWindow.baml
+D:\прога и асд\прога\lab5\library\obj\Debug\Інформація про бібліотеку.baml
+D:\прога и асд\прога\lab5\library\obj\Debug\Інформація_про_книги.baml
+D:\прога и асд\прога\lab5\library\obj\Debug\Загальна інформація.baml
+D:\прога и асд\прога\lab5\library\obj\Debug\Книги, що закріплені за читачем.baml
+D:\прога и асд\прога\lab5\library\obj\Debug\Коли книгу було закріплено.baml
+D:\прога и асд\прога\lab5\library\obj\Debug\У кого книги яких менше двох.baml
+D:\прога и асд\прога\lab5\library\obj\Debug\Читачі, що взяли книгу місяць тому.baml
+D:\прога и асд\прога\lab5\library\obj\Debug\library.g.resources
+D:\прога и асд\прога\lab5\library\obj\Debug\library.Properties.Resources.resources
+D:\прога и асд\прога\lab5\library\obj\Debug\library.csproj.GenerateResource.cache
+D:\прога и асд\прога\lab5\library\obj\Debug\library.csproj.CoreCompileInputs.cache
+D:\прога и асд\прога\lab5\library\obj\Debug\library.exe
+D:\прога и асд\прога\lab5\library\obj\Debug\library.pdb
+D:\прога и асд\прога\library\library\obj\Debug\Добавити читача.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Один_рік.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Опції.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Добавити читача.baml
+D:\прога и асд\прога\library\library\obj\Debug\Один_рік.baml
+D:\прога и асд\прога\library\library\obj\Debug\Опції.baml
+D:\прога и асд\прога\library\library\obj\Debug\Читачі книги.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Операції_книги.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Читачі книги.baml
+D:\прога и асд\прога\library\library\obj\Debug\Операції_книги.baml
+D:\прога и асд\прога\library\library\obj\Debug\Перереєстрація.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Перереєстрація.baml
+D:\прога и асд\прога\library\library\obj\Debug\Звіти_меню.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\К-сть_книг_автора.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Звіти_меню.baml
+D:\прога и асд\прога\library\library\obj\Debug\К-сть_книг_автора.baml
+D:\прога и асд\прога\library\library\obj\Debug\Звіт.g.cs
+D:\прога и асд\прога\library\library\obj\Debug\Звіт.baml

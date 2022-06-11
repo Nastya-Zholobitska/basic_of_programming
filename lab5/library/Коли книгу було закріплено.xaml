@@ -1,0 +1,66 @@
+﻿<Window x:Class="library.Коли_книгу_було_закріплено"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:library" Background="#FFEAEBF1"
+         WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Title="Коли_книгу_було_закріплено" Height="496.4" Width="728">
+    <Grid>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="70" Margin="389,26,0,0" Stroke="White" VerticalAlignment="Top" Width="301">
+        
+        </Rectangle>
+        <Button Content="Які книги закріплені за певним читачем" HorizontalAlignment="Left" Height="39" Margin="387,148,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFB65454" Foreground="White" Click="Button_Click_1"/>
+        <Button Content="Список тих, хто взяв книгу більше місяця тому" HorizontalAlignment="Left" Height="39" Margin="387,200,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFBA5353" Foreground="White" Click="Button_Click_2"/>
+        <Button Content="У кого книги, кількість яких менша двох" HorizontalAlignment="Left" Height="39" Margin="387,253,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFBA5353" Foreground="White" Click="Button_Click_3"/>
+        <Button Content="Загальна інформація та статистика" HorizontalAlignment="Left" Height="39" Margin="387,355,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFBA5353" Foreground="White" Click="Button_Click_5"/>
+        <Button Content="Коли книга була закріплена за читачем" IsEnabled="False" HorizontalAlignment="Left" Height="39" Margin="387,304,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFBA5353" Foreground="#FF3B3B3F"/>
+        <Button Content="Закрити програму" Background="White" Foreground="#FFB85353" HorizontalAlignment="Left" Height="25" Margin="428,413,0,0" VerticalAlignment="Top" Width="229" BorderBrush="#FFB85858" Click="Button_Click_7"/>
+        <Rectangle Fill="#FF3B3B3F" HorizontalAlignment="Left" Height="4" Margin="387,92,0,0" VerticalAlignment="Top" Width="303"/>
+        <Rectangle HorizontalAlignment="Left" Height="60" Margin="389,31,0,0" VerticalAlignment="Top" Width="20" Fill="#FFDC8C8C"/>
+        <Rectangle HorizontalAlignment="Left" Height="53" Margin="409,38,0,0" VerticalAlignment="Top" Width="14" Fill="#FFBA5353"/>
+        <Rectangle Fill="#FF94949C" HorizontalAlignment="Left" Height="51" Margin="431,39,0,0" VerticalAlignment="Top" Width="16" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-18.752"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+
+        <Label Content="Інші функції" HorizontalAlignment="Left" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="469,44,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF3B3B3F" Background="{x:Null}" FontSize="20" FontWeight="Bold"/>
+        <Rectangle HorizontalAlignment="Left" Height="66" Margin="676,26,0,0" VerticalAlignment="Top" Width="14" Fill="#FF94949C"/>
+        <Rectangle HorizontalAlignment="Left" Height="53" Margin="648,36,0,0" VerticalAlignment="Top" Width="18" Fill="#FFDC8C8C" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="20.818"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle HorizontalAlignment="Left" Height="53" Margin="623,38,0,0" VerticalAlignment="Top" Width="14" Fill="#FFBA5353"/>
+        <Rectangle Fill="#FF3B3B3F" HorizontalAlignment="Left" Height="5" Margin="389,26,0,0" VerticalAlignment="Top" Width="303"/>
+        <Button Content="Інформація про книги" HorizontalAlignment="Left" Height="39" Margin="387,97,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFB65454" Foreground="White" />
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="326" Margin="33,46,0,0" Stroke="White" VerticalAlignment="Top" Width="314">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Label Content="Коли книга була закріплена за читачем" HorizontalAlignment="Left" Height="46" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="33,46,0,0" VerticalAlignment="Top" Width="314" Foreground="White" Background="#FF3B3B3F" FontSize="16"/>
+        <Label Content="Шифр книги" HorizontalAlignment="Left" Height="57" Margin="33,130,0,0" VerticalAlignment="Top" Width="125" FontSize="18"/>
+        <Label Content="Номер чит. кв." HorizontalAlignment="Left" Height="58" Margin="33,190,0,0" VerticalAlignment="Top" Width="153" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left"  Name="Book"  Height="44" Margin="176,129,0,0" TextWrapping="Wrap" HorizontalContentAlignment="Center"  Text="" VerticalAlignment="Top" Width="154" Background="#FFEAEBF1" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left"  Name="Reader" Height="44" Margin="176,190,0,0" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Text="" VerticalAlignment="Top" Width="154" Background="#FFEAEBF1" FontSize="18"/>
+        <Button Content="Отримати дату" Background="#FFBA5353" Foreground="White" HorizontalAlignment="Left" Height="38" Margin="70,257,0,0" VerticalAlignment="Top" Width="242" FontSize="18" Click="Button_Click1"/>
+        <Label Content="Результат" HorizontalAlignment="Left" Height="58" Margin="33,319,0,0"  VerticalAlignment="Top" Width="153" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Name="Result" IsEnabled="False"  Height="43" Margin="176,311,0,0" TextWrapping="Wrap" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Text="" VerticalAlignment="Top" Width="154" Background="#FFEAEBF1" FontSize="16"/>
+        <Button Content="Вихід у меню" Background="White" Foreground="#FFB85353" HorizontalAlignment="Left" Height="25" Margin="66,413,0,0" VerticalAlignment="Top" Width="229" BorderBrush="#FFB85858" Click="Button_Click_6"/>
+
+    </Grid>
+</Window>

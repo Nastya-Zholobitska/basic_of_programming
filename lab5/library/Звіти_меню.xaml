@@ -1,0 +1,46 @@
+﻿<Window x:Class="library.Звіти_меню"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:library" WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Title="Звіти_меню" Height="291.6" Width="458.621">
+    <Grid>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="70" Margin="76,22,0,0" Stroke="White" VerticalAlignment="Top" Width="301"/>
+        <Rectangle HorizontalAlignment="Left" Height="66" Margin="363,22,0,0" VerticalAlignment="Top" Width="14" Fill="#FF94949C"/>
+        <Rectangle HorizontalAlignment="Left" Height="53" Margin="333,33,0,0" VerticalAlignment="Top" Width="20" Fill="#FFDC8C8C" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="20.818"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+
+        <Button Content="Звіт про роботу за місяць" HorizontalAlignment="Left" Height="39" Margin="74,144,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFB65454" Foreground="White" Click="Button_Click_1"/>
+        <Button Content="Вихід у меню" Background="White" Foreground="#FFB85353" HorizontalAlignment="Left" Height="25" Margin="74,215,0,0" VerticalAlignment="Top" Width="142" BorderBrush="#FFB85858" Click="Button_Click_6"/>
+        <Button Content="Закрити програму" Background="White" Foreground="#FFB85353" HorizontalAlignment="Left" Height="25" Margin="235,215,0,0" VerticalAlignment="Top" Width="142" BorderBrush="#FFB85858" Click="Button_Click_7"/>
+        <Rectangle Fill="#FF3B3B3F" HorizontalAlignment="Left" Height="4" Margin="74,88,0,0" VerticalAlignment="Top" Width="303"/>
+        <Rectangle HorizontalAlignment="Left" Height="60" Margin="76,27,0,0" VerticalAlignment="Top" Width="20" Fill="#FFDC8C8C"/>
+        <Rectangle HorizontalAlignment="Left" Height="53" Margin="96,34,0,0" VerticalAlignment="Top" Width="14" Fill="#FFBA5353"/>
+        <Rectangle Fill="#FF94949C" HorizontalAlignment="Left" Height="51" Margin="118,36,0,0" VerticalAlignment="Top" Width="16" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-18.752"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Label Content="Звіти" HorizontalAlignment="Left" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="156,40,0,0" VerticalAlignment="Top" Width="142" Foreground="#FF3B3B3F" Background="{x:Null}" FontSize="20" FontWeight="Bold"/>
+        <Rectangle HorizontalAlignment="Left" Height="53" Margin="308,35,0,0" VerticalAlignment="Top" Width="14" Fill="#FFBA5353"/>
+        <Rectangle Fill="#FF3B3B3F" HorizontalAlignment="Left" Height="5" Margin="76,22,0,0" VerticalAlignment="Top" Width="303"/>
+        <Button Content="Довідка про кількість книг певного автора" HorizontalAlignment="Left" Height="39" Margin="74,93,0,0" VerticalAlignment="Top" Width="303" FontSize="14" Background="#FFB65454" Foreground="White" Click="Button_Click"/>
+
+    </Grid>
+</Window>

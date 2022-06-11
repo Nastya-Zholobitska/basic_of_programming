@@ -1,0 +1,59 @@
+﻿<Window x:Class="library.Звіт"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:library" WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"  Background="#FFEAEBF1" 
+        Title="Звіт" Height="643.965" Width="875.687" >
+    <Grid>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="436" Margin="38,85,0,0" Stroke="White" VerticalAlignment="Top" Width="351">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Button Content="Довідка про кількість книг" HorizontalAlignment="Left" Height="39" Margin="38,23,0,0" VerticalAlignment="Top" Width="337" FontSize="14" Background="#FFB65454" Foreground="White" Click="Button_Click_2"/>
+        <Button Content="Звіт про роботу за місяць" HorizontalAlignment="Left" Height="39" Margin="455,23,0,0" VerticalAlignment="Top" Width="358" FontSize="14" Background="#FFB65454" Foreground="#FF3B3B3F" IsEnabled="False"/>
+        <Button Content="Вихід у меню" Background="White" Foreground="#FFB85353" HorizontalAlignment="Left" Height="25" Margin="151,559,0,0" VerticalAlignment="Top" Width="142" BorderBrush="#FFB85858" Click="Button_Click_6"/>
+        <Button Content="Закрити програму" Background="White" Foreground="#FFB85353" HorizontalAlignment="Left" Height="25" Margin="587,559,0,0" VerticalAlignment="Top" Width="142" BorderBrush="#FFB85858" Click="Button_Click_7"/>
+        <Label Content="Оберіть місяць" HorizontalAlignment="Left" Height="36" Margin="66,143,0,0" VerticalAlignment="Top" Width="142" FontSize="18"/>
+        <Label Content="Оберіть рік" HorizontalAlignment="Left" Height="36" Margin="66,184,0,0" VerticalAlignment="Top" Width="142" FontSize="18"/>
+        <Button Content="Сформувати" HorizontalAlignment="Left" Height="29" Margin="109,225,0,0" VerticalAlignment="Top" Width="209" FontSize="14" Background="#FFB65454" Foreground="White" Click="Button_Click"/>
+        <Label Content="Кількість примірників" HorizontalAlignment="Left" Height="36" Margin="54,290,0,0" VerticalAlignment="Top" Width="201" FontSize="18"/>
+        <Label Content="Кількість читачів" HorizontalAlignment="Left" Height="36" Margin="54,339,0,0" VerticalAlignment="Top" Width="167" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Name="countofresders" Height="36" Margin="244,339,0,0" TextWrapping="Wrap" HorizontalContentAlignment="Center" Text="" VerticalAlignment="Top" Width="127" Background="#FFE7E8EE" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="36" Name="countofbooks" Margin="243,290,0,0" TextWrapping="Wrap" HorizontalContentAlignment="Center" Text="" VerticalAlignment="Top" Width="128" Background="#FFE7E8EE" FontSize="18"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="436" Margin="401,86,0,0" Stroke="White" VerticalAlignment="Top" Width="429">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Label Content="Звіт за місяць" Height="38" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="38,86,0,0" VerticalAlignment="Top" Foreground="White" Background="#FF3B3B3F" FontSize="18" HorizontalAlignment="Left" Width="792"/>
+        <Label Content="Зареєструвалося читачів" HorizontalAlignment="Left" Height="36" Margin="416,143,0,0" VerticalAlignment="Top" Width="231" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Name="regread" Height="29" Margin="647,146,0,0" TextWrapping="Wrap" HorizontalContentAlignment="Center" Text="" VerticalAlignment="Top" Width="127" Background="#FFE7E8EE" FontSize="18"/>
+        <DataGrid HorizontalAlignment="Left" Name="books" Height="275" Margin="412,225,0,0" VerticalAlignment="Top" Width="196"/>
+        <DataGrid HorizontalAlignment="Left" Name="read" Height="275" Margin="617,225,0,0" VerticalAlignment="Top" Width="196"/>
+        <Label Content="Хто не брав книг" HorizontalAlignment="Left" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="617,192,0,0" VerticalAlignment="Top" Width="196" Foreground="White" Background="#FF3B3B3F" FontSize="16"/>
+        <Label Content="Які книги брали" HorizontalAlignment="Left" Height="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="412,192,0,0" VerticalAlignment="Top" Width="196" Foreground="White" Background="#FF3B3B3F" FontSize="16"/>
+        <ComboBox HorizontalAlignment="Left" Name="month" Height="36" Margin="243,139,0,0" VerticalAlignment="Top" Width="128" SelectedIndex="0" FontSize="16">
+            <TextBlock>Janyary</TextBlock>
+            <TextBlock>February</TextBlock>
+            <TextBlock>March</TextBlock>
+            <TextBlock>April</TextBlock>
+            <TextBlock>May</TextBlock>
+            <TextBlock>June</TextBlock>
+            <TextBlock>July</TextBlock>
+            <TextBlock>August</TextBlock>
+            <TextBlock>September</TextBlock>
+            <TextBlock>October</TextBlock>
+            <TextBlock>November</TextBlock>
+            <TextBlock>December</TextBlock>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" Name="year"  Height="36" Margin="243,184,0,0" VerticalAlignment="Top" Width="128" SelectedIndex="0" FontSize="16">
+            <TextBlock>2022</TextBlock>
+            <TextBlock>2021</TextBlock>
+        </ComboBox>
+        <Label Content="На поточний день:" HorizontalAlignment="Left" Height="36" Margin="133,254,0,0" VerticalAlignment="Top" Width="288" FontSize="18" FontWeight="Bold"/>
+        <DataGrid HorizontalAlignment="Left" HorizontalContentAlignment="Center" Name="Stat" Height="112" Margin="59,388,0,0" VerticalAlignment="Top" Width="312" FontSize="16"/>
+    </Grid>
+</Window>
